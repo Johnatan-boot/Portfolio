@@ -1,0 +1,39 @@
+@media(max-width:320px){
+
+    header h1{
+        font-size: 1.2em;
+    }
+    .containerValor{
+        position: relative;
+        bottom: 100px;
+        right: 7px;
+
+    }
+    .containerMoeda{
+        position: relative;
+       right: 230px;
+    }
+    .containerValor, .containerMoeda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn_submit{
+        position: relative;
+        left: 2.5px;
+    }
+
+    .containerResult{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        bottom: 14px;
+        left: 25px;
+        font-size: 13px;
+    }
+}
+
+
+
+
