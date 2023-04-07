@@ -1,0 +1,262 @@
+#card2, #card4{
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+}
+
+@media(max-width:1200px){
+    main{
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .main-content{
+        width: 100%;
+        align-items: center;
+
+        margin-bottom: 15%;
+    }
+
+    main .main-content .text,.techs{
+        text-align: center;
+        
+    }
+    main .main-content .text,.techs p{
+      width: 100%;
+      font-size: 0.9em;
+      
+    }
+
+    .h2_mim{
+        position: relative;
+        right: 15%;
+    }
+    .text{
+        position: relative;
+        left: 15%;
+    }
+
+   
+    main .techs .card-container, .main-content .text p{
+    margin-top: 32px;        
+    }
+
+    .main-content{
+        position: relative;
+        left: 1.5%;
+    }
+
+    figure{
+        position: relative;
+        left: 2.5%;
+    }
+
+
+}
+
+/*Cada Configuração de media querie configurada e um
+break point*/
+@media(max-width:700px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav{
+        margin-top: 24px;
+    }
+
+    header nav a {
+        font-size: 1em;
+    }
+
+    .cards-container{
+        position: relative;
+        right: 150px;
+    }
+
+    .card{
+        position: relative;
+        right: 100px;
+       left: 0px;
+    }
+    .row_card{
+        position: relative;
+        left: 0px;
+        
+    }
+
+    main .techs .card-container, .card{
+        margin-top: 32px;  
+        width: 60px;
+        height: 60px;      
+    }
+
+    main .main-content .text h2,.main-content .techs h2{
+        font-size:  1.8em;        
+    }
+
+    .text {
+       
+
+       position: relative;
+       left: 12%;
+
+    }
+    .h2_mim{
+      text-align: center;
+      position: relative;
+       right: 15%;
+
+    }
+
+    main figure img {
+      width: 250px;
+      height: 250px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+}
+
+@media(max-width:320px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 360px;
+    }
+
+
+    header h2 {
+        font-size: 1.8em;
+    }
+
+    header nav{
+        margin-top: 24px;
+    }
+
+    header nav a {
+        font-size: 1em;
+        position: relative;
+        left: 14%;
+        
+    }
+
+    .row{
+        position: relative;
+        left: 5%;
+    }
+
+    .cards-container{
+        position: relative;
+        right: 5px;
+    }
+
+    #card2, #card4{
+        position: relative;
+        left: -0px;
+        bottom: 15px;
+    }
+    
+
+     
+
+    main .techs .card-container, .card{
+        margin-top: 32px;  
+        width: 60px;
+        height: 60px;      
+    }
+
+
+   
+    main .main-content .text h2,.main-content .techs h2{
+        font-size:  1.8em;        
+    }
+
+    .text  {
+       
+
+       position: relative;
+       left: 15%;
+       width: 320px;
+
+    }
+
+   
+    .h2_mim{
+      text-align: center;
+      position: relative;
+       right: 10%;
+
+    }
+
+    main figure img {
+      width: 250px;
+      height: 250px;
+      position: relative;
+      left: 3.5%;
+    }
+
+    figcaption{
+        position: relative;
+        left: 2.5%;
+    }
+
+    footer{
+        position: relative;
+        left: 0;
+        width: 360px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+}
