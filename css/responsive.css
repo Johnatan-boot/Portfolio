@@ -1,6 +1,6 @@
 #card2, #card4{
     position: relative;
-    left: 300px;
+    left: 295px;
     bottom: 150px;
 }
 
@@ -43,7 +43,9 @@
 
    
     main .techs .card-container, .main-content .text p{
-    margin-top: 32px;        
+    margin-top: 32px; 
+    position: relative;
+    right: 300px;       
     }
 
     .main-content{

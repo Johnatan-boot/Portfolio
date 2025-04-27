@@ -1,0 +1,61 @@
+.container{
+    position:relative;
+    left: 15%;
+    bottom: 3%;
+}
+
+img{
+    height: 300px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+label{
+    font-weight: 600;
+
+}
+
+
+input{
+    position: relative;
+    right: 15%;
+}
+
+.card-title, card-text{
+    text-align: center;
+}
+
+.card-text{
+    position: relative;
+    right: 15%;
+}
+label{
+    position: relative;
+    right: 15%;
+}
+
+.text_select_tipe_service{
+ position: relative;
+ right: 250px;
+}
+
+.container select {
+    position: relative;
+    right: 225px;
+}
+
+
+.btn{
+    width: 100%;
+    color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+

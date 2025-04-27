@@ -29,6 +29,14 @@ main .main-content  .text p{
 main .techs .cards-container{
     display: flex;
     align-items: center;
+    
+}
+
+.cards-container{
+    position: relative;
+    right: 0%;
+    margin-right: 90px;
+
 }
 main .techs .cards-container .card{
     width: 120px;
@@ -48,7 +56,8 @@ main .techs .cards-container .card{
     transition: box-shadow 0.25s ease-in-out;
 }
 main .techs .cards-container .card img{
-    width: 80%;
+    width: 100%;
+    height: 10'0px;
     
     
 }
